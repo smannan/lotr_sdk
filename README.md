@@ -5,7 +5,7 @@ Python 3.8.9
 
 ### Installation
 
-pip install <>
+pip install smannan-lotr-sdk
 
 
 ### Environment set up
