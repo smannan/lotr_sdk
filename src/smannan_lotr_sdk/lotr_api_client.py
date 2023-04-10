@@ -80,7 +80,7 @@ def get_movies(movie_id: str = None, limit: int = None, page: int = None, offset
 		'page': page,
 		'offset': offset
 	}
-	response, status = http_service.get_request(relative_path, params=params)
+	response, status = get_request(relative_path, params=params)
 
 	# return an empty list of movies if the API call is unsuccessful
 	if status != 200:
@@ -115,7 +115,7 @@ def get_movie_quotes(movie_id: str, limit: int = None, page: int = None, offset:
 		'offset': offset
 	}
 
-	response, status = http_service.get_request(relative_path, params=params)
+	response, status = get_request(relative_path, params=params)
 
 	# return an empty list of movies if the API call is unsuccessful
 	if status != 200:
