@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='smannan_lotr_sdk',
-    version='6.0',
+    version='7.0',
     author="Sonia Mannan",
     author_email='smannan95@hotmail.com',
     packages=find_packages('src'),
